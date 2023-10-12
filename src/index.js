@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',setup)
 
 function setup() {
-    document.getElementById('demoButton').onclick = addSomething;
+    //document.getElementById('demoButton').onclick = addSomething;
 }
 
 function addSomething(){

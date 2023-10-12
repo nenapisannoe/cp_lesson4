@@ -1,5 +1,6 @@
 import {MiniMaple} from "../src/miniMaple";
 
 test('it fails', () => {
-    expect(false).toBeTruthy();
+    const maple = new MiniMaple('x+x');
+    expect(maple.func == 'x+x').toBeTruthy();
 });
